@@ -2,6 +2,7 @@
 """Defines a class Place that inherits from BaseModel"""
 from models.base_model import BaseModel
 
+
 class Place(BaseModel):
     """Class that defines properties of Place.
 
@@ -30,7 +31,7 @@ class Place(BaseModel):
     longitude = 0.0
     amenity_ids = []
 
-    def __init__(self,*args,**kwargs):
+    def __init__(self, *args, **kwargs):
         """Creates new instances of Place.
         """
-        super().__init__(*args,**kwargs)
+        super().__init__(*args, **kwargs)
